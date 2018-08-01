@@ -1,0 +1,57 @@
+* {		margin: 0;
+		padding: 0;}
+.sitenav {
+	height: 100px;
+	background-color: #fff;
+}
+.inner {
+	height: 100px;
+	width: 1200px;
+	/*background-color: #444;*/
+	margin: 0 auto;
+
+
+}
+.logo {
+	height: 100px;
+	float: left;
+}
+.nav {
+	height: 100px;
+	line-height: 100px;
+	float: right;
+}
+.nav li {
+	list-style: none;
+	margin: 0 20px;
+	float: left;
+}
+.nav li a {
+	text-decoration: none;;
+	color: #333;
+}
+.nav li a:hover {
+	color: #2288f6;
+}
+/*banner star*/
+.banner {
+	height: 620px;
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-image: url(../images/banner.jpg);
+}
+/*banner end*/
+
+/*service start*/
+
+.service {
+	width: 1055px;
+	height: 650px;
+	margin: 75px auto 0;
+	background-color: pink;
+}
+.service-hd {
+	border: 1px solid #ccc;
+	margin: 0 25px;
+}
+/*service end*/
