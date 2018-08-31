@@ -1,0 +1,38 @@
+.banner {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  ul {
+    &:first-child {
+      width: 100%*10;
+      transform: translateX(-10%);
+      li {
+        width: 100%/10;
+        float: left;
+        a {
+          width: 100%;
+          display: block;
+          img {
+            width: 100%;
+          }
+        }
+      }
+    }
+    &:last-child {
+      position: absolute;
+      right: 15rem/@base;
+      bottom: 15rem/@base;
+      li {
+        width: 15rem/@base;
+        height: 15rem/@base;
+        border-radius: 50%;
+        background-color: #fff;
+        margin-left: 15rem/@base;
+        float: left;
+        &.now {
+          background-color: @mainColor;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,9 @@
+@charset "UTF-8";
+.mixin(@index) when ( @index > 0){
+  @media (min-width: extract(@adapterDevice,@index)) {
+    html {
+      font-size: @base/@picWidth*extract(@adapterDevice,@index);
+    }
+  }
+  .mixin( @index - 1)
+}
